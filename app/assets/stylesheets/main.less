@@ -1,0 +1,68 @@
+.perspective (@value) {
+  -webkit-perspective: @value;
+  -moz-perspective: @value;
+  perspective: @value;
+}
+
+.transform (@value) {
+  -webkit-transform: rotateY(@value);
+  -moz-transform: rotateY(@value);
+  transform: rotateY(@value);
+}
+
+.border-radius (@value) {
+  -webkit-border-radius: @value;
+  -moz-border-radius: @value;
+  border-radius: @value;
+}
+
+
+body {
+    padding: 24px;
+    background-color: #333;
+    margin-top: 20px;
+}
+
+.flip-container {
+  .perspective(1000);
+  margin-bottom: 20px;
+  &:hover .flipper {
+    .transform(10deg);
+  }
+  &.flipped .flipper {
+  .transform(180deg);
+  }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+margin-top: 10px;
+}
+
+.remove{
+margin-top: 10px;
+}
+
+.card-holder {
+        width: 150px;
+        background: #424242;
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 1.5rem;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.334;
+        letter-spacing: 0em;
+        margin: 15px;
+        color: #fff;
+        box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.remove {
+    color: #90caf9;
+    cursor: pointer;
+}
