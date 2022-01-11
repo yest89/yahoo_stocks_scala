@@ -4,9 +4,9 @@ This is a simple application for watching a stock quote in real time. Scala, Pla
 
 1. Download the template:
 
-        git clone git@github.com:ychoi27/play-streaming-stock-scala.git
+        git clone https://github.com/yest89/yahoo_stocks_scala.git
         
-     Or, if you don't have git installed, download and unzip the files manually from [here](https://github.com/ychoi27/play-streaming-stock-scala/archive/master.zip).
+     Or, if you don't have git installed, download and unzip the files manually from [here](https://github.com/yest89/yahoo_stocks_scala/archive/master.zip).
        
 2. To run your program, in SBT:
 
@@ -21,4 +21,4 @@ This is a simple application for watching a stock quote in real time. Scala, Pla
    To delete the card, just click the Remove button.   
    Finally, the real time data is available during trading hours.
 
-![Image description](https://github.com/ychoi27/play-streaming-stock-scala/blob/master/public/images/image.png)
+![Image description](https://github.com/yest89/yahoo_stocks_scala/blob/main/public/images/image.png)
