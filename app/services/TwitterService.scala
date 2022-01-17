@@ -72,7 +72,6 @@ class TwitterService @Inject()(ws: WSClient, config: Configuration) {
       .get()
 
 
-    ////    val bb = "AAAAAAAAAAAAAAAAAAAAAFGeXwEAAAAA9rrth6bpMBVgOs8lCP9685Mpsi4%3DXm79oBiOGLE524HzFr2SsLBUyElPYhAWoKU842kT5EPkv4EVeQ"
     //    //    ws.url("https://api.twitter.com/2/tweets")
     //    ws.url("https://api.twitter.com/2/tweets/search/all")
     //      .withQueryString("query" -> "eth")
@@ -103,7 +102,6 @@ class TwitterService @Inject()(ws: WSClient, config: Configuration) {
       .get()
 
 
-    ////    val bb = "AAAAAAAAAAAAAAAAAAAAAFGeXwEAAAAA9rrth6bpMBVgOs8lCP9685Mpsi4%3DXm79oBiOGLE524HzFr2SsLBUyElPYhAWoKU842kT5EPkv4EVeQ"
     //    //    ws.url("https://api.twitter.com/2/tweets")
     //    ws.url("https://api.twitter.com/2/tweets/search/all")
     //      .withQueryString("query" -> "eth")
